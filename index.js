@@ -28,14 +28,12 @@ var h5Array = Array.from(h5Elements)
 var forwardRun = (h5Array, idx)=>{
     for(var elm of randomWord){
         h5Array[idx].innerHTML = elm;
-        h5Array[idx].style.backgroundColor = "yellow"
         idx++;
     }
 }
 var backwardRun = (h5Array, idx)=>{
     for(var elm of randomWord){
         h5Array[idx].innerHTML = elm;
-        h5Array[idx].style.backgroundColor = "yellow"
         idx = idx + 6;
     }
 }
